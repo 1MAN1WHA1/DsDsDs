@@ -94,9 +94,6 @@ async def afect_command_handler(message: Message):
 
     await message.answer_photo(photo=image_url)
 
-@router.message(Command('file'))
-
-
 @router.message(Command('info'))
 async def cmd_info(message: Message):
     info_text = "Информация о нас: Такой не имеется\n\n"
