@@ -70,7 +70,7 @@ async def cmd_help(message: Message):
     info_text += "/register - Поможет вам Зарегистрироваться\n"
     info_text += "/profile - Поможет вам увидеть ваш профиль\n"
     info_text += "/pagin - Показывает изображения с пагинацией\n"
-    info_text += "/afir - Показывает изображения с пагинацией\n"
+    info_text += "/afir - Показывает наш последний эфир\n"
 
     await message.reply(info_text, parse_mode='Markdown')
 
